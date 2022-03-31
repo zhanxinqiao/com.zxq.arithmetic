@@ -5,7 +5,10 @@ public class Code06_BSAwesome {
         if(arr==null || arr.length==0){
             return -1;
         }
-        if (arr.length==1 || arr[0]<arr[1])
+        if (arr.length==1 || arr[0]<arr[1]){
+            return 1;
+        }
+        return 0;
     }
 
     public static void main(String[] args) {
